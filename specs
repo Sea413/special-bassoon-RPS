@@ -1,0 +1,14 @@
+Logic Specs
+
+User1 inputs rock, paper, or scissors
+User2 inputs rock, paper, or scissors
+
+some logic that compares both entries and either:
+Decides a winner
+or declares a draw/plays again
+
+Input Output Specs
+
+u1 inputs rock
+u2 inputs scissors
+result=u1 wins 

@@ -10,9 +10,11 @@ namespace RPSNameSpace
       [Fact]
       public void Test1_CheckWin_Player1()
       {
-        PlayerCheck newPlayerCheck = new PlayerCheck();
+        RPS newRPS = new RPS(2,0);
 
-        Assert.Equal("Player1 Wins", newPlayerCheck(player P1, player P2));
+        Assert.Equal("Player 2 wins", newRPS.GetResult());
       }
+      // [Fact]
+
   }
 }

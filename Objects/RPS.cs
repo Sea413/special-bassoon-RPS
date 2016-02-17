@@ -29,7 +29,7 @@ namespace RPSNameSpace
       //p1moves[input1], p2moves[input2],
       //if p1moves[0] && p2moves[1], p2 wins, set p2 as winner break loops
       //
-        string result;
+        string result="fail";
         string player1win="Player 1 wins";
         string player2win="Player 2 wins";
         string playerDraw="Draw";
